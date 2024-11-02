@@ -1,0 +1,5 @@
+CREATE TABLE dogs (
+    id BIGSERIAL PRIMARY KEY,
+    name VARCHAR NOT NULL,
+    breed TEXT
+);
